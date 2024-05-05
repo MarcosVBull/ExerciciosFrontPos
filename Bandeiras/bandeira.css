@@ -1,0 +1,51 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+}
+
+.search-container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid limegreen;
+  border-radius: 10px;
+}
+
+#search-input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid limegreen;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
+
+button {
+  background-color: limegreen;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.flag-container {
+  width: 400px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+#flag-image {
+  width: 200px;
+  height: 133px; /* Maintain aspect ratio of most flags */
+  border: 1px solid limegreen;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#country-name {
+  font-size: 20px;
+  font-weight: bold;
+}

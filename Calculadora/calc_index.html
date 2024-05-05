@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora MV Veiga</title>
+    <link rel="stylesheet" href="calc_style.css">
+</head>
+<body>
+    <h1>Calculadora MV Veiga</h1>
+
+    <div class="container">
+        <input type="number" id="num1" class="input-field" placeholder="Primeiro número">
+        <input type="number" id="num2" class="input-field" placeholder="Segundo número">
+
+        <select id="operador">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+
+        <button onclick="calcular()">Calcular</button>
+
+        <div id="resultado" class="resultado"></div>
+    </div>
+
+    <script src="calc.js"></script>
+</body>
+</html>
